@@ -1,0 +1,148 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    background-color: #201E20;
+    overflow: auto;
+}
+
+.list-group{
+    background-color: #201E20;
+    margin-top: 20px;
+}
+
+.list-group-item{
+    background-color: #201E20;
+    line-height: 50px;
+    transition: all 0.5s ease 0s;
+}
+
+.list-group-item:hover{
+    background-color: #ffff;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all 0.5s ease 0s;
+}
+
+.list-group-item a:hover{
+    color: black;
+}
+
+.member-add{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    transform: translateX(100px);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.member-add form{
+    background-color: #ffff;
+    border-radius: 12px;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+.items{
+    display: block;
+    background-color: #ffff;
+    line-height: 50px;
+}
+
+.items li:hover{
+    background-color: #201E20;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.active{
+    display: none;
+}
+
+.search{
+    width: 500px;
+}
+
+#burger{
+    display: none;
+}
+
+@media only screen and (max-width: 720px){
+    .sidebar{
+        display: none;
+    }
+
+    .m-nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .5rem;
+    }
+
+    .logo img{
+       width: 5rem;
+       display: none;
+    }
+
+    .activities{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(100px);
+        margin: auto;
+    }
+
+    table{
+        font-size: .7rem;
+    }
+
+    tbody tr td{
+        font-size: .7rem;
+    }
+
+    .activities1{
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .title{
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    #burger{
+        display: block;
+        font-size: 1.5rem;
+        transition: all 0.5s ease 0s;
+    }
+
+    .active{
+        display: block;
+        z-index: 1;
+         transition: all 0.5s ease 0s;
+    }
+
+    .member-add{
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    .form-content{
+        width: 100%;
+        transform: translateX(0);
+    }
+}
+
+

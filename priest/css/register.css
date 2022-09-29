@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background: url(../image/42965170_246440336019914_6152641192409432064_n.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(22, 43, 31);
+    background-blend-mode: screen;
+}
+
+.m-container .nav{
+    background-color: #ffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-container .nav h2{
+     color: #202c2d;
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+.m-container .m-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+}
+
+.m-container .m-content div{
+    height: 100vh;
+}
+
+.text-1{
+    padding: 10px;
+}
+
+.text-1 h3{
+    text-align: center;
+    color: #e0eff2;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.m-form .form-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 70%;
+}
+
+.m-form{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.m-form .form-content form{
+    background-color: #ffff;
+    height: 300px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.m-form .form-content form h4{
+    color: rgb(141, 136, 136);
+    font-weight: 100;
+    
+}
+
+.m-form .form-content form input{
+    height: 50px;
+    border: 1px solid rgb(141, 136, 136);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.m-form .form-content form button{
+    background-color: #007FFF;
+     height: 50px;
+    border: 1px solid rgb(141, 136, 136);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.m-nav{
+    height: 10%;
+    width: 100%;
+    background-color: #ffff;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.m-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.m-nav ul div{
+    height: 100%;
+}
+
+.m-nav ul li{
+    list-style: none;  
+    height: 100%;
+}
+
+.m-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 5px;
+
+}
+
+
+
